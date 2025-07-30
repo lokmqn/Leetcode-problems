@@ -1,5 +1,5 @@
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
-
+    
     struct ListNode dummy;
     dummy.next = NULL;
     struct ListNode* cur = &dummy;
